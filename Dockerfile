@@ -44,7 +44,6 @@ RUN apt-get update && \
 	ibus-gtk \
 	ibus-gtk3 \
 	ibus-qt4 \
-	openssh-server \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
